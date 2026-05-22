@@ -1,0 +1,17 @@
+{
+  "app": "lsb-trainer",
+  "schemaVersion": 1,
+  "createdAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "featureConfig": {
+    "type": "mediapipe-hands-face-normalized-v1",
+    "maxHands": 2,
+    "landmarksPerHand": 21,
+    "valuesPerLandmark": 3,
+    "vectorSize": 132,
+    "maxFaces": 1,
+    "valuesPerFace": 3
+  },
+  "labels": [],
+  "samples": []
+}
