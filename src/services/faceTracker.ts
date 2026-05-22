@@ -6,7 +6,7 @@ import {
 } from '@mediapipe/tasks-vision';
 import type { FacePose, Landmark } from '@/types/model';
 
-const WASM_BASE_URL = '/mediapipe/wasm';
+const WASM_BASE_URL = `${import.meta.env.BASE_URL}mediapipe/wasm`;
 const MODEL_URL = 'https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/short/1/face_landmarker.task';
 
 export class FaceTracker {

@@ -7,7 +7,7 @@ import {
 import { applyLandmarkVisibility } from '@/services/landmarkVisibility';
 import type { HandPose, Handedness, Landmark } from '@/types/model';
 
-const WASM_BASE_URL = '/mediapipe/wasm';
+const WASM_BASE_URL = `${import.meta.env.BASE_URL}mediapipe/wasm`;
 const MODEL_URL =
   'https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task';
 
